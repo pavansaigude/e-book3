@@ -1,0 +1,11 @@
+.contact ul{
+    list-style: none;
+    text-align: center;
+}
+body{
+    background-image:url(contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}

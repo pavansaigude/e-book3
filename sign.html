@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>SIGN UP</title>
+<link rel="stylesheet" type="text/css" href="sign.css">
+<script type="text/javascript">
+function validate()
+{
+var a=document.registration-form.firstname.value;
+if(a.length<=7);
+{
+alert(document.write("first name should be minimum 8 characters"));
+document.registration-form.firstname.focus()
+return false;
+}
+return true;
+</script>
+</head>
+<body>
+<div class="registration-form">
+<h1 color="black">Registration form</h1>
+<form action="#" method="post" name="registration-form" onsubmit="return validate()">
+<p style="color:black">First Name:</p>
+<input type="text" name="firstname" placeholder="First Name">
+<p style="color:black">Last Name:</p>
+<input type="text" name="lastname" placeholder="Last Name">
+<p style="color:black">Email:</p>
+<input type="email" name="email" placeholder="enter your email">
+<p style="color:black">Password:</p>
+<input type="password" name="password" placeholder="password">
+<p style="color:black">Select your gender</p>
+male<input type="radio" name="gender" value="male">
+female<input type="radio" name="gender" value="female">
+<p style="color:black">Enter your mobile number</p>
+<input type="number" placeholder="your number">
+<p style="color:black">Select your DOB</p>
+<input type="date"/>
+<button type="submit"><a href="ebook.html">sign in</a></button>
+</form>
+</div>
+</body>
+</html>
